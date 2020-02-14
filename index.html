@@ -18,6 +18,8 @@
 	<link href="css/projects.css" rel="stylesheet" />
   <link href="css/cayman.css" rel="stylesheet" />
 
+
+
   <style>
 
     .bkgd-image-1 {
@@ -124,17 +126,14 @@
 
   <div class="container-fluid no-margin no-padding">
 
-    <div class="col-md-12">
-      <div class="row more-padding">
+    <!-- <div class="col-md-12"> -->
+    <div class="row more-padding">
+      <div class="col-lg-12">
         <h2>Islands Honey Photos</h2>
     	   <div class="gal">
 
-    	      <img src="https://preview.ibb.co/i0PmHk/1.jpg" id="myImg" alt="© Leannna Siupinys" >
-              <div id="myModal" class="modal">
-                <span class="close">&times;</span>
-                <img class="modal-content" id="img01">
-                <div id="caption"></div>
-              </div>
+    	      <img src="images/test_img.jpg" id="myImg" alt="© Leannna Siupinys" >
+
 
     		    <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt="">
 
@@ -233,28 +232,7 @@
 	<script src="https://unpkg.com/popper.js/dist/umd/popper.min.js"></script>
 	<script src="https://unpkg.com/bootstrap/dist/js/bootstrap.min.js"></script>
 
-  <script>
-    // Get the modal
-    var modal = document.getElementById("myModal");
 
-    // Get the image and insert it inside the modal - use its "alt" text as a caption
-    var img = document.getElementById("myImg");
-    var modalImg = document.getElementById("img01");
-    var captionText = document.getElementById("caption");
-    img.onclick = function(){
-      modal.style.display = "block";
-      modalImg.src = this.src;
-      captionText.innerHTML = this.alt;
-    }
-
-    // Get the <span> element that closes the modal
-    var span = document.getElementsByClassName("close")[0];
-
-    // When the user clicks on <span> (x), close the modal
-    span.onclick = function() {
-      modal.style.display = "none";
-    }
-    </script>
 
 </body>
 
