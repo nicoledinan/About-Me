@@ -308,6 +308,21 @@ a:hover {
   box-sizing:border-box;
 }
 
+
+.footer-links a {
+  color: #333333;
+}
+
+.footer-links a:hover {
+  color: #E79798;
+  text-decoration: none;
+}
+
+.footer-links h5 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
 @media (min-width: 768px) {
 
 .navbar-right {
