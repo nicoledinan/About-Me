@@ -18,6 +18,15 @@
 }
 
 
+/* responsiveness */
+
+@media (max-width: 768px) {
+  .gallery {
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	}
+}
 
 @media (max-width: 768px) {
   .gallery {
