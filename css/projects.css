@@ -330,6 +330,10 @@ a:hover {
   font-size: 15px;
 }
 
+.footer-links p {
+  font-size: 14px;
+}
+
 .fab {
   font-size: 20px;
   padding-right: 15px;
